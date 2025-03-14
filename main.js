@@ -10,3 +10,9 @@ let s = array.reduce ((accumulator,cur_data)=> {
     return accumulator + cur_data 
 
 })
+
+
+for ( let num of array ) { 
+    console.log(num);
+    
+}
